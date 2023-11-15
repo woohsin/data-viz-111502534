@@ -1,0 +1,242 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Fundamentals Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+<!-- 改 -->
+				<!-- Nav --> 
+				<!-- 清單 (有什頁面從這加減)-->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#work2" class="icon solid fa-folder"><span>Work</span></a>
+						<a href="#work3" class="icon solid fa-folder"><span>Work</span></a>
+						<!-- 
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+						<a href="https://twitter.com/ajlkn" class="icon brands fa-twitter"><span>Twitter</span></a>
+						 -->
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>111502534 吳欣瑜</h1>
+									<p>miterm report</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/10299.jpg" alt="" />
+								</a>
+
+						</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								
+								<header>
+									<h2>Domestic & Global box office of top 10 movies in taiwan</h2>
+								</header>
+								<hr/>
+								<h3>graph</h3>
+								<div id="myGraph_bar"></div>
+								<hr/>
+								<h3>
+									製作方法說明
+								</h3>
+								<h4>
+									以台灣歷年來票房最高的十部電影做取材，分別取用台灣國內票房跟全球票房。
+									分為三個可選取頁面，第一頁為全球票房，第二頁為國內票房，第三個頁面為混和頁面，可同時比較兩種數據。
+								</h4>
+
+								<h3>
+									<hr/>
+									資料來源<br/>
+									(各電影維基百科)<br/>
+								</h3>	
+
+									<h4>
+									1. https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E6%9C%80%E9%AB%98%E9%9B%BB%E5%BD%B1%E7%A5%A8%E6%88%BF%E6%94%B6%E5%85%A5%E5%88%97%E8%A1%A8<br/>
+									2. https://zh.wikipedia.org/zh-tw/%E9%98%BF%E5%87%A1%E8%BE%BE<br/>
+									3. https://zh.wikipedia.org/zh-tw/%E5%BE%A9%E4%BB%87%E8%80%85%8%81%AF%E7%9B%9F%EF%BC%9A%E7%B5%82%E5%B1%80%E4%B9%8B%E6%88%B0<br/>
+									4. https://zh.wikipedia.org/zh-tw/%E4%BE%8F%E7%BD%97%E7%BA%AA%E4%B8%96%E7%95%8C<br/>
+									5. https://zh.wikipedia.org/zh-tw/%E7%8E%A9%E5%91%BD%E9%97%9C%E9%A0%AD7<br/>
+									6. https://zh.wikipedia.org/zh-tw/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%<br/>E5%8F%B7_(1997%E5%B9%B4%E7%94%B5%E5%BD%B1)<br/>
+									7. https://zh.wikipedia.org/zh-tw/%E8%AE%8A%E5%BD%A2%E9%87%91%E5%89%9B3<br/>
+									8. https://zh.wikipedia.org/zh-tw/%E9%98%BF%E5%87%A1%E9%81%94%EF%BC%9A%E6%B0%B4%E4%B9%8B%E9%81%93<br/>
+									9. https://zh.wikipedia.org/zh-tw/%E6%8D%8D%E8%A1%9B%E6%88%B0%E5%A3%AB%EF%BC%9A%E7%8D%A8%E8%A1%8C%E4%BF%A0<br/>
+									10. https://zh.wikipedia.org/zh-tw/%E7%8E%A9%E5%91%BD%E9%97%9C%E9%A0%AD8<br/>
+									11. https://zh.wikipedia.org/zh-tw/%E5%BE%A9%E4%BB%87%E8%80%85%E8%81%AF%E7%9B%9F3%EF%BC%9A%E7%84%A1%E9%99%90%E4%B9%8B%E6%88%B0<br/>
+									</h4>
+								
+								<!-- 丟作業的html兩行 -->
+								
+							</article>
+
+						<!-- Work -->
+							<article id="work2" class="panel">
+								<header>
+									<h2>北中南一天中的氣溫</h2>
+								</header>
+									<hr/>
+								<h3>
+									graph
+								</h3>
+								<div id="myGraph_line"></div>
+								<hr/>
+								<h3>
+									製作方法說明
+								</h3>
+								
+								<h4>
+									北區採用中壢，中區採用雲林，南區採用屏東。<br/>
+									比較一天中凌晨0點、早上6點、中午12點、下午6點的各區溫度變化。<br/>
+									X軸為一天中的時間(0-24) <br/>Y軸為溫度<br/>
+									總共4個頁面，三個區域各自的溫度變化及共同呈現的第四張圖。可明顯看出北中南的溫度差異。
+								</h4>
+								<hr/>
+								<h3>
+									資料來源
+								</h3>
+								<h4>
+									iphone的螢幕使用時數
+								</h4>
+							</article>
+
+							<article id="work3" class="panel">
+								<header>
+									<h2> 一天中手機使用APP分布</h2>
+								</header>
+								<hr/>
+								<h3>
+									graph
+								</h3>
+								<div id="myGraph_pie"></div>
+								<h3>
+									製作方法說明
+								</h3>
+								<h4>
+									分別採用4天中使用時間最多的前五名APP做成圓餅圖，
+									滑鼠移到圓餅圖上後會顯示APP名稱、使用時數(分鐘)、佔全部的百分比
+								</h4>
+								<hr/>
+								<h3>
+									資料來源
+								</h3>
+								<h4>
+									iphone的氣象預報
+								</h4>
+							</article>
+							
+								<!-- <section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+										</div>
+									</div>
+								</section> -->
+							
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-medium">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="col-12">
+												<textarea name="message" placeholder="Message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<script src="https://cdn.plot.ly/plotly-2.26.1.min.js"></script>
+			<script src="hello_bar_chart/data_bar.js"></script>
+			<script src="hello_bar_chart/main_bar.js"></script>
+
+			<script src="https://cdn.plot.ly/plotly-2.26.1.min.js"></script>
+			<script src="Lineandscatter2/data_line.js"></script>
+			<script src="Lineandscatter2/main_line.js"></script>
+
+			<script src="https://cdn.plot.ly/plotly-2.26.1.min.js"></script>
+			<script src="circlr/data_pie.js"></script>
+			<script src="circlr/main_pie.js"></script>
+
+	</body>
+</html>
